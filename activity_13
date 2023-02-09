@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+   int pounds,kilograms;
+       printf("pounds\tkilograms\n");
+
+       for (pounds=100; pounds<=200; pounds= pounds +10){
+           kilograms= pounds * 0.454;
+           printf("%d %d\n", pounds, kilograms);
+       }
+       getch();
+       return 0;
+}
